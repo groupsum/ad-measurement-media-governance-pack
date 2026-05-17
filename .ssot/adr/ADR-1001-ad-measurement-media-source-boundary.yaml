@@ -1,0 +1,25 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1001"
+number: 1001
+slug: "ad-measurement-media-source-boundary"
+title: "Ad Measurement Media Source Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "This repository curates authority sources for advertising and media measurement governance. The source set spans IAB Tech Lab technical specifications, IAB/MRC measurement guidelines, and measurement quality guidance used to define downstream conformance templates."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  This repository curates authority sources for advertising and media measurement governance. The source set spans IAB Tech Lab technical specifications, IAB/MRC measurement guidelines, and measurement quality guidance used to define downstream conformance templates.
+  
+  ## Decision
+  
+  The pack authority boundary is limited to advertising and media measurement targets. Canonical sources include OpenRTB, AdCOM, VAST, Open Measurement SDK / OMID, IAB Click Measurement Guidelines, IAB Digital Video Ad Measurement Guidelines, and MRC measurement-quality standards relevant to viewability, invalid traffic, and auditability.
+  
+  The boundary excludes analytics platform implementation guides, vendor-specific conversion APIs, ecommerce semantics, consent transport, and customer data profile standards unless those sources are needed only as contextual inputs for ad/media measurement.

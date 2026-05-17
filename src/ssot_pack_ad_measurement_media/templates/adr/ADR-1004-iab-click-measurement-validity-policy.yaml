@@ -1,0 +1,35 @@
+{
+  "id": "adr:iab-click-measurement-validity-policy",
+  "number": 1004,
+  "slug": "iab-click-measurement-validity-policy",
+  "title": "IAB Click Measurement Validity Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream counting, filtering, classification, and reporting of advertising clicks.",
+    "excludes": [
+      "Non-ad interaction analytics",
+      "Attribution model selection",
+      "Vendor-specific click optimization"
+    ]
+  },
+  "authority_sources": [
+    "IAB Click Measurement Guidelines"
+  ],
+  "decision": [
+    "Treat IAB click measurement guidance as the authority for valid-click counting and click reporting controls.",
+    "Distinguish clickthrough events from in-unit interactions and other engagement signals.",
+    "Filter invalid or fraudulent clicks before reported click metrics are published."
+  ],
+  "conformance_targets": [
+    "Valid click criteria",
+    "Invalid and fraudulent click filtration",
+    "Clickthrough versus in-unit interaction classification"
+  ],
+  "evidence_expectations": [
+    "Click event fixtures",
+    "Filtration logs",
+    "Reported click metric exports"
+  ]
+}

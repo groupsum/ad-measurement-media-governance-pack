@@ -1,0 +1,23 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1003"
+number: 1003
+slug: "iab-mrc-measurement-guideline-selection"
+title: "IAB MRC Measurement Guideline Selection"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "IAB and MRC measurement guidelines define counting, validity, and audit expectations for advertising metrics such as clicks, impressions, video impressions, viewability, and invalid traffic treatment."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  IAB and MRC measurement guidelines define counting, validity, and audit expectations for advertising metrics such as clicks, impressions, video impressions, viewability, and invalid traffic treatment.
+  
+  ## Decision
+  
+  IAB Click Measurement Guidelines, IAB Digital Video Ad Measurement Guidelines, and applicable MRC measurement-quality standards are selected as canonical guideline sources for downstream measurement policy templates. These sources govern measurement validity and reporting expectations rather than protocol payload shape.

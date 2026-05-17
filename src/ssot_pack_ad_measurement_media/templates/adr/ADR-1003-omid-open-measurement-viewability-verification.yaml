@@ -1,0 +1,35 @@
+{
+  "id": "adr:omid-open-measurement-viewability-verification",
+  "number": 1003,
+  "slug": "omid-open-measurement-viewability-verification",
+  "title": "OMID Open Measurement Viewability Verification",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream adoption of OMID/Open Measurement signals for ad viewability and verification measurement.",
+    "excludes": [
+      "Non-ad verification telemetry",
+      "Vendor-specific verification scoring models",
+      "Invalid traffic policy decisions not dependent on measurement signal capture"
+    ]
+  },
+  "authority_sources": [
+    "Open Measurement SDK / OMID"
+  ],
+  "decision": [
+    "Treat OMID/Open Measurement as an authoritative signal source for supported ad viewability and verification measurement surfaces.",
+    "Capture session lifecycle, verification access, measurement registration, and viewability signal outputs where OMID is integrated.",
+    "Keep raw verification signals available for later classification, reporting, and audit evidence."
+  ],
+  "conformance_targets": [
+    "OMID session lifecycle",
+    "Verification access and measurement registration",
+    "Viewability signal capture"
+  ],
+  "evidence_expectations": [
+    "OMID integration fixtures",
+    "Verification signal logs",
+    "Viewability reporting samples"
+  ]
+}

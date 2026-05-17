@@ -1,0 +1,35 @@
+{
+  "id": "adr:openrtb-adcom-inventory-measurement-boundary",
+  "number": 1001,
+  "slug": "openrtb-adcom-inventory-measurement-boundary",
+  "title": "OpenRTB AdCOM Inventory Measurement Boundary",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream use of OpenRTB and AdCOM fields for ad inventory and measurement governance.",
+    "excludes": [
+      "Vendor-specific bidding optimizations",
+      "Non-advertising analytics events",
+      "Consent, privacy, and customer identity governance handled by separate downstream decisions"
+    ]
+  },
+  "authority_sources": [
+    "OpenRTB",
+    "AdCOM: Advertising Common Object Model"
+  ],
+  "decision": [
+    "Treat OpenRTB and AdCOM as authoritative technical sources for ad inventory, impression opportunity, context, device, user, and measurement-related object fields.",
+    "Validate incoming and exported ad measurement records against explicit OpenRTB and AdCOM field mappings.",
+    "Keep bid, inventory, and measurement semantics distinct from downstream attribution or customer-profile semantics."
+  ],
+  "conformance_targets": [
+    "OpenRTB bid request and impression fields used for measurement",
+    "AdCOM object model fields used for inventory and creative measurement"
+  ],
+  "evidence_expectations": [
+    "Field mapping tables",
+    "Parser or schema validation outputs",
+    "Sample bid request and ad object fixtures"
+  ]
+}

@@ -1,0 +1,23 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1002"
+number: 1002
+slug: "iab-tech-lab-measurement-source-selection"
+title: "IAB Tech Lab Measurement Source Selection"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "IAB Tech Lab specifications provide the technical interfaces and object models that shape ad inventory, bid request, video ad serving, and verification measurement interoperability."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  IAB Tech Lab specifications provide the technical interfaces and object models that shape ad inventory, bid request, video ad serving, and verification measurement interoperability.
+  
+  ## Decision
+  
+  OpenRTB, AdCOM, VAST, and Open Measurement SDK / OMID are selected as canonical technical authority sources for this repository's ad/media measurement template set. Source curation must keep protocol/object-model targets distinct from measurement guideline targets because downstream implementers need different decisions and tests for payload conformance, event semantics, verification signals, and reporting.

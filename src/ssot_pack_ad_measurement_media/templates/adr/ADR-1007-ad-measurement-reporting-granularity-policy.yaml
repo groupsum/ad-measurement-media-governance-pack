@@ -1,0 +1,39 @@
+{
+  "id": "adr:ad-measurement-reporting-granularity-policy",
+  "number": 1007,
+  "slug": "ad-measurement-reporting-granularity-policy",
+  "title": "Ad Measurement Reporting Granularity Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream reporting grain, aggregation controls, reconciliation, and evidence retention for ad/media measurement metrics.",
+    "excludes": [
+      "Business intelligence dashboard layout",
+      "Non-measurement campaign planning",
+      "Customer-level profile enrichment"
+    ]
+  },
+  "authority_sources": [
+    "OpenRTB",
+    "AdCOM",
+    "VAST",
+    "Open Measurement SDK / OMID",
+    "IAB and MRC measurement guidance"
+  ],
+  "decision": [
+    "Define reporting grain explicitly for each ad measurement metric before publishing reports or exports.",
+    "Retain lineage from raw measurement events through filtered and aggregated metrics.",
+    "Require reconciliation evidence when reported totals are derived from multiple measurement sources."
+  ],
+  "conformance_targets": [
+    "Metric grain definition",
+    "Raw-to-filtered-to-reported lineage",
+    "Cross-source report reconciliation"
+  ],
+  "evidence_expectations": [
+    "Metric definition tables",
+    "Aggregation job outputs",
+    "Reconciliation reports"
+  ]
+}

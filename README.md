@@ -30,8 +30,13 @@ Advertising, Media, And Audience Measurement
 
 ## Included ADRs
 
-- `adr:ad-media-measurement-boundary` - Ad Media Measurement Boundary
-- `adr:viewability-and-invalid-traffic-policy` - Viewability And Invalid Traffic Policy
+- `adr:openrtb-adcom-inventory-measurement-boundary` - OpenRTB AdCOM Inventory Measurement Boundary
+- `adr:vast-video-ad-measurement-events` - VAST Video Ad Measurement Events
+- `adr:omid-open-measurement-viewability-verification` - OMID Open Measurement Viewability Verification
+- `adr:iab-click-measurement-validity-policy` - IAB Click Measurement Validity Policy
+- `adr:iab-mrc-video-impression-measurement-policy` - IAB MRC Video Impression Measurement Policy
+- `adr:invalid-traffic-filtration-and-audit-policy` - Invalid Traffic Filtration And Audit Policy
+- `adr:ad-measurement-reporting-granularity-policy` - Ad Measurement Reporting Granularity Policy
 
 ## Included SPECs
 

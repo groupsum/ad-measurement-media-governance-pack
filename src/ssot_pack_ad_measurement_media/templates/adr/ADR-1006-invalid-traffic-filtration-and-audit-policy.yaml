@@ -1,0 +1,36 @@
+{
+  "id": "adr:invalid-traffic-filtration-and-audit-policy",
+  "number": 1006,
+  "slug": "invalid-traffic-filtration-and-audit-policy",
+  "title": "Invalid Traffic Filtration And Audit Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream filtration, exclusion, auditability, and reporting treatment for invalid advertising traffic.",
+    "excludes": [
+      "Security incident response",
+      "Non-ad bot analytics",
+      "Fraud vendor procurement decisions"
+    ]
+  },
+  "authority_sources": [
+    "Media Rating Council Standards",
+    "IAB measurement guidance"
+  ],
+  "decision": [
+    "Filter invalid traffic before metrics are used for audited ad measurement reports.",
+    "Classify excluded traffic using stable reason codes and retain audit evidence for filtration decisions.",
+    "Separate raw observed activity, filtered measurement activity, and reported totals."
+  ],
+  "conformance_targets": [
+    "Invalid traffic filtration",
+    "Exclusion reason tracking",
+    "Audit-ready metric evidence"
+  ],
+  "evidence_expectations": [
+    "Invalid traffic filter logs",
+    "Excluded-event samples",
+    "Audit reports and reconciled exports"
+  ]
+}

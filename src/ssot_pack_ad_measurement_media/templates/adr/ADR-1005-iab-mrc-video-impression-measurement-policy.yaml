@@ -1,0 +1,36 @@
+{
+  "id": "adr:iab-mrc-video-impression-measurement-policy",
+  "number": 1005,
+  "slug": "iab-mrc-video-impression-measurement-policy",
+  "title": "IAB MRC Video Impression Measurement Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream counting and reporting of digital video ad impressions.",
+    "excludes": [
+      "Video content analytics unrelated to advertising",
+      "Creative quality scoring",
+      "Campaign attribution logic"
+    ]
+  },
+  "authority_sources": [
+    "IAB Digital Video Ad Measurement Guidelines",
+    "Media Rating Council Standards"
+  ],
+  "decision": [
+    "Treat IAB/MRC digital video measurement guidance as authoritative for video ad impression counting.",
+    "Support measurement context distinctions such as web, mobile web, mobile app, and OTT-like environments when reported metrics depend on them.",
+    "Retain raw and filtered measurement evidence sufficient to reconcile video impression reports."
+  ],
+  "conformance_targets": [
+    "Video ad impression counting",
+    "Environment-specific measurement context",
+    "Video metric reconciliation"
+  ],
+  "evidence_expectations": [
+    "Video impression logs",
+    "Environment classification outputs",
+    "Raw-to-reported metric reconciliation"
+  ]
+}

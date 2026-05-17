@@ -1,0 +1,23 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1004"
+number: 1004
+slug: "viewability-verification-and-invalid-traffic-source-selection"
+title: "Viewability Verification And Invalid Traffic Source Selection"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Ad measurement quality depends on whether impressions are measurable, viewable, verified, and filtered for invalid traffic before metrics are reported."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  Ad measurement quality depends on whether impressions are measurable, viewable, verified, and filtered for invalid traffic before metrics are reported.
+  
+  ## Decision
+  
+  Open Measurement SDK / OMID is selected as the primary verification and viewability technical source. MRC and IAB measurement guidance are selected as quality-control sources for viewability classification, invalid traffic filtration, and auditability expectations.

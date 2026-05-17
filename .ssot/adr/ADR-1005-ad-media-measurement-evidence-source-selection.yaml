@@ -1,0 +1,23 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1005"
+number: 1005
+slug: "ad-media-measurement-evidence-source-selection"
+title: "Ad Media Measurement Evidence Source Selection"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Downstream repositories need reusable governance templates that translate ad/media measurement standards into durable evidence expectations for audits, reporting, and reconciliation."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  Downstream repositories need reusable governance templates that translate ad/media measurement standards into durable evidence expectations for audits, reporting, and reconciliation.
+  
+  ## Decision
+  
+  The repository will curate evidence-relevant targets from the selected ad/media measurement sources, including tracking events, measurement logs, verification signals, invalid-traffic filtration records, export totals, and audit reports.

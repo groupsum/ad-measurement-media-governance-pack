@@ -1,0 +1,35 @@
+{
+  "id": "adr:vast-video-ad-measurement-events",
+  "number": 1002,
+  "slug": "vast-video-ad-measurement-events",
+  "title": "VAST Video Ad Measurement Events",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream collection, normalization, retention, and reporting of video ad measurement events defined by VAST.",
+    "excludes": [
+      "Creative rendering behavior outside measurement events",
+      "Campaign attribution models",
+      "Non-video ad measurement"
+    ]
+  },
+  "authority_sources": [
+    "VAST"
+  ],
+  "decision": [
+    "Treat VAST tracking events as the authoritative event vocabulary for video ad measurement where VAST is used.",
+    "Record impression, quartile, completion, click, error, and verification-related events with stable identifiers and timestamps.",
+    "Retain enough event ordering and correlation data to reconcile raw events with reported video ad metrics."
+  ],
+  "conformance_targets": [
+    "VAST tracking event capture",
+    "Video ad event ordering and deduplication",
+    "Video ad reporting reconciliation"
+  ],
+  "evidence_expectations": [
+    "VAST fixture payloads",
+    "Tracking event logs",
+    "Reporting reconciliation outputs"
+  ]
+}
