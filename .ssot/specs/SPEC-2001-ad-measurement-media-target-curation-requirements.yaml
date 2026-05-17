@@ -1,0 +1,28 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2001"
+number: 2001
+slug: "ad-measurement-media-target-curation-requirements"
+title: "Ad Measurement Media Target Curation Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "This repository must curate advertising and media measurement targets only when they define ad inventory, ad serving, ad measurement events, viewability, verification, click validity, video impression counting, invalid traffic treatment, reporting, reconciliation, or audit evidence."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Requirements
+  
+  This repository must curate advertising and media measurement targets only when they define ad inventory, ad serving, ad measurement events, viewability, verification, click validity, video impression counting, invalid traffic treatment, reporting, reconciliation, or audit evidence.
+  
+  Each curated target must record the authority owner, source title, source type, governed measurement capability, and version or publication date when available.
+  
+  The curated target set must include OpenRTB, AdCOM, VAST, Open Measurement SDK / OMID, IAB Click Measurement Guidelines, IAB Digital Video Ad Measurement Guidelines, and relevant MRC measurement-quality standards.
+  
+  ## Exclusions
+  
+  The curation surface excludes generic web analytics, ecommerce semantics, customer identity, consent transport, and vendor ad platform APIs unless used only as contextual references for an ad/media measurement target.
+spec_kind: "governance"

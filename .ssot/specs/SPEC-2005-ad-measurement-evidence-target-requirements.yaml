@@ -1,0 +1,26 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2005"
+number: 2005
+slug: "ad-measurement-evidence-target-requirements"
+title: "Ad Measurement Evidence Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Evidence targets must cover raw measurement event logs, validation outputs, filtration logs, excluded-event reason codes, verification signal records, aggregation outputs, exported reports, reconciliation results, and audit reports where those artifacts are required to support ad/media measurement claims."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Requirements
+  
+  Evidence targets must cover raw measurement event logs, validation outputs, filtration logs, excluded-event reason codes, verification signal records, aggregation outputs, exported reports, reconciliation results, and audit reports where those artifacts are required to support ad/media measurement claims.
+  
+  Evidence requirements must stay implementation-neutral. They may define required evidence classes and relationships, but must not require one vendor, database, analytics platform, or ad server implementation.
+  
+  ## Evidence
+  
+  Downstream templates must be traceable to curated ad/media measurement targets and must identify the expected evidence artifacts that can substantiate conformance.
+spec_kind: "governance"

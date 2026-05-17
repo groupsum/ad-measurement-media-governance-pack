@@ -40,10 +40,18 @@ Advertising, Media, And Audience Measurement
 
 ## Included SPECs
 
-- `spc:vast-video-measurement-contract` - VAST Video Measurement Contract
-- `spc:omid-viewability-contract` - OMID Viewability Contract
-- `spc:iab-click-video-podcast-measurement-contract` - IAB Click Video Podcast Measurement Contract
-- `spc:bot-filtering-measurement-contract` - Bot Filtering Measurement Contract
+- `spc:openrtb-bid-request-measurement-field-requirements` - OpenRTB Bid Request Measurement Field Requirements
+- `spc:adcom-object-model-measurement-requirements` - AdCOM Object Model Measurement Requirements
+- `spc:vast-tracking-event-requirements` - VAST Tracking Event Requirements
+- `spc:vast-video-ad-reporting-requirements` - VAST Video Ad Reporting Requirements
+- `spc:omid-session-and-verification-requirements` - OMID Session And Verification Requirements
+- `spc:omid-viewability-signal-requirements` - OMID Viewability Signal Requirements
+- `spc:iab-click-measurement-requirements` - IAB Click Measurement Requirements
+- `spc:iab-digital-video-impression-requirements` - IAB Digital Video Impression Requirements
+- `spc:mrc-viewability-measurement-requirements` - MRC Viewability Measurement Requirements
+- `spc:mrc-invalid-traffic-filtration-requirements` - MRC Invalid Traffic Filtration Requirements
+- `spc:ad-measurement-audit-evidence-requirements` - Ad Measurement Audit Evidence Requirements
+- `spc:ad-measurement-export-reconciliation-requirements` - Ad Measurement Export Reconciliation Requirements
 
 ## Install With uv
 

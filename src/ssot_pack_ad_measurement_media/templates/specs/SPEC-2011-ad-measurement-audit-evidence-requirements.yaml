@@ -1,0 +1,40 @@
+{
+  "id": "spc:ad-measurement-audit-evidence-requirements",
+  "number": 2011,
+  "slug": "ad-measurement-audit-evidence-requirements",
+  "title": "Ad Measurement Audit Evidence Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream audit evidence retained for advertising and media measurement claims.",
+    "excludes": [
+      "Financial billing records unless used as measurement evidence",
+      "Non-ad analytics reports",
+      "Source-code review procedures"
+    ]
+  },
+  "authority_sources": [
+    "IAB measurement guidance",
+    "Media Rating Council Standards",
+    "OpenRTB",
+    "AdCOM",
+    "VAST",
+    "Open Measurement SDK / OMID"
+  ],
+  "requirements": [
+    "Retain source snapshots, parser outputs, raw event logs, verification logs, filtration logs, export files, and audit reports needed to support measurement claims.",
+    "Link evidence artifacts to the metric, source, processing step, and report they substantiate.",
+    "Preserve evidence immutability or content hashes for audit-sensitive artifacts."
+  ],
+  "verification": [
+    "Evidence inventory tests",
+    "Claim-to-evidence linkage checks",
+    "Content hash or immutability checks for audit artifacts"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:ad-measurement-reporting-granularity-policy",
+    "adr:invalid-traffic-filtration-and-audit-policy"
+  ]
+}

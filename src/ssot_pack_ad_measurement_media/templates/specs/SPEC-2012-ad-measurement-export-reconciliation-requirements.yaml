@@ -1,0 +1,38 @@
+{
+  "id": "spc:ad-measurement-export-reconciliation-requirements",
+  "number": 2012,
+  "slug": "ad-measurement-export-reconciliation-requirements",
+  "title": "Ad Measurement Export Reconciliation Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream reconciliation between raw ad measurement events, filtered metrics, verification outputs, and reported exports.",
+    "excludes": [
+      "Dashboard styling",
+      "Non-measurement business reporting",
+      "Customer identity resolution"
+    ]
+  },
+  "authority_sources": [
+    "OpenRTB",
+    "AdCOM",
+    "VAST",
+    "Open Measurement SDK / OMID",
+    "IAB and MRC measurement guidance"
+  ],
+  "requirements": [
+    "Define reconciliation keys and aggregation grain for every exported ad measurement metric.",
+    "Reconcile raw events, excluded events, filtered metrics, verification outputs, and published totals.",
+    "Fail or flag exports when reconciliation errors exceed downstream-defined tolerances."
+  ],
+  "verification": [
+    "Export grain tests",
+    "Raw-to-filtered-to-reported reconciliation tests",
+    "Reconciliation failure-path tests"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:ad-measurement-reporting-granularity-policy"
+  ]
+}

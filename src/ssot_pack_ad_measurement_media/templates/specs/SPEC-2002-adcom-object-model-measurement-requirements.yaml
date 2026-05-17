@@ -1,0 +1,34 @@
+{
+  "id": "spc:adcom-object-model-measurement-requirements",
+  "number": 2002,
+  "slug": "adcom-object-model-measurement-requirements",
+  "title": "AdCOM Object Model Measurement Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream use of AdCOM object model fields for ad inventory, creative, and measurement records.",
+    "excludes": [
+      "Creative approval workflows",
+      "Campaign planning taxonomies",
+      "Customer profile enrichment"
+    ]
+  },
+  "authority_sources": [
+    "AdCOM: Advertising Common Object Model"
+  ],
+  "requirements": [
+    "Map AdCOM objects used for inventory, placement, creative, asset, context, and measurement records.",
+    "Preserve object identity and relationships needed to reconcile ad measurement events with inventory and creative records.",
+    "Validate AdCOM-derived records before they are used as authoritative measurement dimensions."
+  ],
+  "verification": [
+    "AdCOM object fixture validation",
+    "Relationship mapping tests",
+    "Measurement dimension export checks"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:openrtb-adcom-inventory-measurement-boundary"
+  ]
+}

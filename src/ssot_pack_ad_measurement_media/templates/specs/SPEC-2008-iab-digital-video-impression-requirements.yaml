@@ -1,0 +1,35 @@
+{
+  "id": "spc:iab-digital-video-impression-requirements",
+  "number": 2008,
+  "slug": "iab-digital-video-impression-requirements",
+  "title": "IAB Digital Video Impression Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream counting and reporting of digital video ad impressions.",
+    "excludes": [
+      "Organic video content engagement",
+      "Creative quality scoring",
+      "Campaign attribution rules"
+    ]
+  },
+  "authority_sources": [
+    "IAB Digital Video Ad Measurement Guidelines",
+    "Media Rating Council Standards"
+  ],
+  "requirements": [
+    "Define the event and context conditions that allow a digital video ad impression to be counted.",
+    "Preserve environment context such as web, mobile web, mobile app, CTV, or OTT-like surfaces when relevant to the measurement claim.",
+    "Reconcile raw video impression observations, excluded observations, and reported impression totals."
+  ],
+  "verification": [
+    "Video impression fixture tests",
+    "Environment context classification tests",
+    "Raw-to-reported impression reconciliation tests"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:iab-mrc-video-impression-measurement-policy"
+  ]
+}

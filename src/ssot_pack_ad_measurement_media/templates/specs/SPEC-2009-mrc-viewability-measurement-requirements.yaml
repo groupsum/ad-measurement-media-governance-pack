@@ -1,0 +1,36 @@
+{
+  "id": "spc:mrc-viewability-measurement-requirements",
+  "number": 2009,
+  "slug": "mrc-viewability-measurement-requirements",
+  "title": "MRC Viewability Measurement Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream classification, evidence, and reporting of ad viewability metrics.",
+    "excludes": [
+      "Non-ad viewport analytics",
+      "Creative design constraints",
+      "Verification vendor procurement"
+    ]
+  },
+  "authority_sources": [
+    "Media Rating Council Standards",
+    "IAB measurement guidance"
+  ],
+  "requirements": [
+    "Define viewability classifications and measurable/non-measurable states used in reported ad measurement metrics.",
+    "Require evidence linking reported viewability metrics to raw measurement or verification signals.",
+    "Separate viewability classification from invalid traffic filtration and attribution reporting."
+  ],
+  "verification": [
+    "Viewability classification tests",
+    "Measurable and non-measurable impression tests",
+    "Viewability report evidence checks"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:omid-open-measurement-viewability-verification",
+    "adr:invalid-traffic-filtration-and-audit-policy"
+  ]
+}

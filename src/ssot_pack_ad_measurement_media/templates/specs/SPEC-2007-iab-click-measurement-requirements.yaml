@@ -1,0 +1,34 @@
+{
+  "id": "spc:iab-click-measurement-requirements",
+  "number": 2007,
+  "slug": "iab-click-measurement-requirements",
+  "title": "IAB Click Measurement Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream counting, validation, filtration, and reporting of advertising clicks.",
+    "excludes": [
+      "Non-ad product interactions",
+      "Attribution model selection",
+      "Conversion API transport"
+    ]
+  },
+  "authority_sources": [
+    "IAB Click Measurement Guidelines"
+  ],
+  "requirements": [
+    "Define valid-click criteria and reject or exclude click records that do not satisfy those criteria.",
+    "Distinguish clickthrough events from in-unit interactions and other engagement events.",
+    "Retain filtration and reporting evidence for raw clicks, excluded clicks, and reported clicks."
+  ],
+  "verification": [
+    "Valid and invalid click fixture tests",
+    "Clickthrough versus interaction classification tests",
+    "Click report reconciliation tests"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:iab-click-measurement-validity-policy"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "spc:vast-video-ad-reporting-requirements",
+  "number": 2004,
+  "slug": "vast-video-ad-reporting-requirements",
+  "title": "VAST Video Ad Reporting Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream reporting and reconciliation of metrics derived from VAST video ad events.",
+    "excludes": [
+      "Dashboard visualization choices",
+      "Media buying optimization",
+      "Non-ad video engagement analytics"
+    ]
+  },
+  "authority_sources": [
+    "VAST",
+    "IAB Digital Video Ad Measurement Guidelines"
+  ],
+  "requirements": [
+    "Define reportable VAST-derived metrics and the raw events that contribute to each metric.",
+    "Deduplicate and order events consistently before producing video ad reports.",
+    "Retain reconciliation evidence from raw VAST events through filtered and aggregated report outputs."
+  ],
+  "verification": [
+    "Deduplication tests",
+    "Metric derivation tests",
+    "Report export reconciliation tests"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:vast-video-ad-measurement-events",
+    "adr:iab-mrc-video-impression-measurement-policy"
+  ]
+}

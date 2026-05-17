@@ -1,0 +1,34 @@
+{
+  "id": "spc:vast-tracking-event-requirements",
+  "number": 2003,
+  "slug": "vast-tracking-event-requirements",
+  "title": "VAST Tracking Event Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream capture and validation of VAST tracking events.",
+    "excludes": [
+      "Creative rendering behavior outside measurement event capture",
+      "Non-video ad metrics",
+      "Attribution model selection"
+    ]
+  },
+  "authority_sources": [
+    "VAST"
+  ],
+  "requirements": [
+    "Capture VAST impression, quartile, completion, click, error, and verification-related events when those events are supported by the downstream surface.",
+    "Preserve event identifiers, timestamps, creative/ad identifiers, placement context, and correlation identifiers needed for metric reconciliation.",
+    "Reject, quarantine, or flag malformed tracking events before they contribute to reported video ad metrics."
+  ],
+  "verification": [
+    "VAST tracking fixture tests",
+    "Malformed event handling tests",
+    "Raw-event to reported-metric reconciliation tests"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:vast-video-ad-measurement-events"
+  ]
+}

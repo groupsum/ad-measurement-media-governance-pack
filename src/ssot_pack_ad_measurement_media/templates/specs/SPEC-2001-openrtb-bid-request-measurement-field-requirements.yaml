@@ -1,0 +1,34 @@
+{
+  "id": "spc:openrtb-bid-request-measurement-field-requirements",
+  "number": 2001,
+  "slug": "openrtb-bid-request-measurement-field-requirements",
+  "title": "OpenRTB Bid Request Measurement Field Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream validation of OpenRTB fields used for advertising measurement, reporting, and reconciliation.",
+    "excludes": [
+      "Bid optimization algorithms",
+      "Exchange-specific extensions not selected by the downstream repository",
+      "Non-advertising analytics events"
+    ]
+  },
+  "authority_sources": [
+    "OpenRTB"
+  ],
+  "requirements": [
+    "Define the OpenRTB request, impression, site/app, device, user, source, and regulation fields that are accepted as measurement inputs.",
+    "Validate required field presence, type, normalization, and controlled values before fields are used in measurement reports.",
+    "Retain fixtures or parser outputs that prove accepted and rejected OpenRTB payload behavior."
+  ],
+  "verification": [
+    "Parser or schema validation tests for accepted and rejected payloads",
+    "Field mapping tests from OpenRTB payloads to measurement records",
+    "Export reconciliation tests for fields used in reported metrics"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:openrtb-adcom-inventory-measurement-boundary"
+  ]
+}

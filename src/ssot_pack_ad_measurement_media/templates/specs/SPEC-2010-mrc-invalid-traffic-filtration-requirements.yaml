@@ -1,0 +1,35 @@
+{
+  "id": "spc:mrc-invalid-traffic-filtration-requirements",
+  "number": 2010,
+  "slug": "mrc-invalid-traffic-filtration-requirements",
+  "title": "MRC Invalid Traffic Filtration Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream invalid traffic filtration, exclusion, and audit treatment for advertising measurement.",
+    "excludes": [
+      "General cybersecurity incident response",
+      "Non-ad bot analytics",
+      "Fraud-vendor procurement decisions"
+    ]
+  },
+  "authority_sources": [
+    "Media Rating Council Standards",
+    "IAB measurement guidance"
+  ],
+  "requirements": [
+    "Apply invalid traffic filtration before publishing audited ad measurement metrics.",
+    "Record exclusion reason codes and filter stage for traffic removed from reportable metrics.",
+    "Preserve raw, filtered, excluded, and reported metric evidence for audit review."
+  ],
+  "verification": [
+    "Invalid traffic fixture tests",
+    "Exclusion reason-code tests",
+    "Filtered metric reconciliation tests"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:invalid-traffic-filtration-and-audit-policy"
+  ]
+}

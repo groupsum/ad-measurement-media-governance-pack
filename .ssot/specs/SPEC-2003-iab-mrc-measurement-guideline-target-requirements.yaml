@@ -1,0 +1,26 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2003"
+number: 2003
+slug: "iab-mrc-measurement-guideline-target-requirements"
+title: "IAB MRC Measurement Guideline Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "IAB and MRC measurement guideline targets must be curated as counting, validity, filtration, reporting, and auditability sources. Click measurement, video ad measurement, viewability, invalid traffic, and audit evidence targets must remain distinct because downstream repositories need separate policies and tests for each metric family."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Requirements
+  
+  IAB and MRC measurement guideline targets must be curated as counting, validity, filtration, reporting, and auditability sources. Click measurement, video ad measurement, viewability, invalid traffic, and audit evidence targets must remain distinct because downstream repositories need separate policies and tests for each metric family.
+  
+  Guideline targets must identify whether they govern raw event capture, valid metric counting, invalid metric exclusion, reportable aggregates, or audit evidence.
+  
+  ## Evidence
+  
+  The repository must maintain enough target metadata to justify downstream templates for click validity, video impression counting, viewability classification, invalid traffic filtration, and reporting reconciliation.
+spec_kind: "governance"

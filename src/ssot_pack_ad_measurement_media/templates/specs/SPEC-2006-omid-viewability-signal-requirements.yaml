@@ -1,0 +1,35 @@
+{
+  "id": "spc:omid-viewability-signal-requirements",
+  "number": 2006,
+  "slug": "omid-viewability-signal-requirements",
+  "title": "OMID Viewability Signal Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream interpretation and reporting use of OMID/Open Measurement viewability signals.",
+    "excludes": [
+      "Viewability thresholds not selected by downstream policy",
+      "Non-ad visibility analytics",
+      "Creative layout design"
+    ]
+  },
+  "authority_sources": [
+    "Open Measurement SDK / OMID",
+    "Media Rating Council Standards"
+  ],
+  "requirements": [
+    "Record viewability signals with the identifiers and timestamps required to classify measured, unmeasured, viewable, and non-viewable impressions.",
+    "Keep signal capture separate from downstream viewability classification and reporting decisions.",
+    "Retain signal-level evidence for every reported viewability metric that depends on OMID/Open Measurement."
+  ],
+  "verification": [
+    "Viewability signal fixture tests",
+    "Signal-to-classification mapping tests",
+    "Reported viewability evidence checks"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:omid-open-measurement-viewability-verification"
+  ]
+}

@@ -1,0 +1,26 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2002"
+number: 2002
+slug: "iab-tech-lab-ad-protocol-target-requirements"
+title: "IAB Tech Lab Ad Protocol Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "IAB Tech Lab protocol targets must be curated as separate authority surfaces. OpenRTB and AdCOM targets must be represented as inventory, bid request, object model, creative, context, device, user, and measurement field surfaces. VAST targets must be represented as video ad serving, tracking event, verification, error, click, and reporting surfaces. Open Measurement SDK / OMID targets must be represented as session, verification access, measurement registration, and viewability signal surfaces."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Requirements
+  
+  IAB Tech Lab protocol targets must be curated as separate authority surfaces. OpenRTB and AdCOM targets must be represented as inventory, bid request, object model, creative, context, device, user, and measurement field surfaces. VAST targets must be represented as video ad serving, tracking event, verification, error, click, and reporting surfaces. Open Measurement SDK / OMID targets must be represented as session, verification access, measurement registration, and viewability signal surfaces.
+  
+  Source records must not collapse protocol payload requirements into measurement-quality policy requirements.
+  
+  ## Evidence
+  
+  The repository must retain source references and template mappings that show which downstream ADR and SPEC templates are justified by each IAB Tech Lab protocol target.
+spec_kind: "governance"

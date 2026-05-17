@@ -1,0 +1,26 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2004"
+number: 2004
+slug: "ad-verification-viewability-target-requirements"
+title: "Ad Verification Viewability Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Viewability and verification targets must distinguish signal capture from metric classification. OMID/Open Measurement targets govern integration and signal capture. MRC and IAB targets govern whether captured signals can support reported viewability, measurable impression, non-measurable impression, verification, or invalid traffic conclusions."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Requirements
+  
+  Viewability and verification targets must distinguish signal capture from metric classification. OMID/Open Measurement targets govern integration and signal capture. MRC and IAB targets govern whether captured signals can support reported viewability, measurable impression, non-measurable impression, verification, or invalid traffic conclusions.
+  
+  Source curation must preserve whether a target applies to web, mobile web, mobile app, CTV, OTT-like, or other governed ad environments when the source distinguishes those contexts.
+  
+  ## Evidence
+  
+  The repository must map verification and viewability targets to downstream templates that require session evidence, signal logs, metric classification records, and reporting outputs.
+spec_kind: "governance"
