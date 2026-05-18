@@ -78,7 +78,7 @@ wheels = [
 ]
 
 [[package]]
-name = "ssot-pack-ad-measurement-media"
+name = "ad-measurement-media-governance-pack"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

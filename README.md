@@ -1,4 +1,4 @@
-# ssot-pack-ad-measurement-media
+# ad-measurement-media-governance-pack
 
 Installable SSOT governance pack for ad and media measurement, video ads, viewability, invalid traffic, podcast measurement, and MRC/IAB quality controls.
 
@@ -8,10 +8,10 @@ This repository is an installable SSOT Registry governance pack. It packages imm
 
 - Pack ID: `pack:ad-measurement-media`
 - Priority: `P3.1`
-- PyPI package: `ssot-pack-ad-measurement-media`
+- PyPI package: `ad-measurement-media-governance-pack`
 - Import package: `ssot_pack_ad_measurement_media`
 - GitHub repository: `groupsum/ad-measurement-media-governance-pack`
-- Reservation owner: `extension-pack:ssot-pack-ad-measurement-media`
+- Reservation owner: `extension-pack:ad-measurement-media-governance-pack`
 
 ## Domain Focus
 
@@ -56,15 +56,15 @@ Advertising, Media, And Audience Measurement
 ## Install With uv
 
 ```bash
-uv add ssot-pack-ad-measurement-media
-uv add ssot-registry ssot-pack-ad-measurement-media
+uv add ad-measurement-media-governance-pack
+uv add ssot-registry ad-measurement-media-governance-pack
 ```
 
 ## Use With The SSOT Registry CLI
 
 ```bash
-uvx --from ssot-registry ssot pack install ssot-pack-ad-measurement-media
-uvx --from ssot-registry ssot pack sync . ssot-pack-ad-measurement-media
+uvx --from ssot-registry ssot pack install ad-measurement-media-governance-pack
+uvx --from ssot-registry ssot pack sync . ad-measurement-media-governance-pack
 uv run ssot adr list .
 uv run ssot spec list .
 ```
@@ -81,5 +81,5 @@ spec_manifest = load_document_manifest("spec")
 ## Resources
 
 - GitHub repository: https://github.com/groupsum/ad-measurement-media-governance-pack
-- PyPI package: https://pypi.org/project/ssot-pack-ad-measurement-media/
+- PyPI package: https://pypi.org/project/ad-measurement-media-governance-pack/
 - SSOT Registry: https://pypi.org/project/ssot-registry/

@@ -13,7 +13,7 @@ except ModuleNotFoundError:  # pragma: no cover
 ROOT = Path(__file__).resolve().parents[1]
 ADR_TEMPLATES = ROOT / "src" / "ssot_pack_ad_measurement_media" / "templates" / "adr"
 SPEC_TEMPLATES = ROOT / "src" / "ssot_pack_ad_measurement_media" / "templates" / "specs"
-RESERVATION_OWNER = "extension-pack:ssot-pack-ad-measurement-media"
+RESERVATION_OWNER = "extension-pack:ad-measurement-media-governance-pack"
 MINIMUM_SCHEMA_VERSION = "0.4.0"
 
 
