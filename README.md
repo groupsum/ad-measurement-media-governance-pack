@@ -1,10 +1,13 @@
+<div align="center">
+
 # ad-measurement-media-governance-pack
 
 [![PyPI version](https://img.shields.io/pypi/v/ad-measurement-media-governance-pack.svg)](https://pypi.org/project/ad-measurement-media-governance-pack/)
 [![Python versions](https://img.shields.io/pypi/pyversions/ad-measurement-media-governance-pack.svg)](https://pypi.org/project/ad-measurement-media-governance-pack/)
 [![License](https://img.shields.io/pypi/l/ad-measurement-media-governance-pack.svg)](https://pypi.org/project/ad-measurement-media-governance-pack/)
 [![Publish](https://github.com/groupsum/ad-measurement-media-governance-pack/actions/workflows/publish.yml/badge.svg)](https://github.com/groupsum/ad-measurement-media-governance-pack/actions/workflows/publish.yml)
-[![GitHub package](https://img.shields.io/badge/GitHub-package-24292f)](https://github.com/groupsum/ad-measurement-media-governance-pack)
+
+</div>
 
 Installable SSOT governance pack for ad and media measurement, video ads, viewability, invalid traffic, podcast measurement, and MRC/IAB quality controls.
 
