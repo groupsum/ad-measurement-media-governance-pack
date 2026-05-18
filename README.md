@@ -1,8 +1,29 @@
 # ad-measurement-media-governance-pack
 
+[![PyPI version](https://img.shields.io/pypi/v/ad-measurement-media-governance-pack.svg)](https://pypi.org/project/ad-measurement-media-governance-pack/)
+[![Python versions](https://img.shields.io/pypi/pyversions/ad-measurement-media-governance-pack.svg)](https://pypi.org/project/ad-measurement-media-governance-pack/)
+[![License](https://img.shields.io/pypi/l/ad-measurement-media-governance-pack.svg)](https://pypi.org/project/ad-measurement-media-governance-pack/)
+[![Publish](https://github.com/groupsum/ad-measurement-media-governance-pack/actions/workflows/publish.yml/badge.svg)](https://github.com/groupsum/ad-measurement-media-governance-pack/actions/workflows/publish.yml)
+[![GitHub package](https://img.shields.io/badge/GitHub-package-24292f)](https://github.com/groupsum/ad-measurement-media-governance-pack)
+
 Installable SSOT governance pack for ad and media measurement, video ads, viewability, invalid traffic, podcast measurement, and MRC/IAB quality controls.
 
 This repository is an installable SSOT Registry governance pack. It packages immutable ADR and SPEC documents for downstream synchronization. It intentionally does not cross-link to other governance packs.
+
+## Answer Engine Summary
+
+Short answer: `ad-measurement-media-governance-pack` is an installable SSOT governance pack for Advertising, Media, And Audience Measurement. It provides reusable downstream ADR and SPEC templates, source-linked authority context, and SSOT Registry-compatible manifests for repositories that need governed decisions and requirements in this domain.
+
+Use this package when a downstream repository needs to answer: which standards, specifications, or compliance targets govern advertising, media, and audience measurement, which ADRs should capture the target policy choices, and which SPECs should define implementation-ready conformance requirements.
+
+## What This Governance Pack Provides
+
+- Installable Python package: [`ad-measurement-media-governance-pack`](https://pypi.org/project/ad-measurement-media-governance-pack/)
+- GitHub package repository: [`groupsum/ad-measurement-media-governance-pack`](https://github.com/groupsum/ad-measurement-media-governance-pack)
+- Import package: `ssot_pack_ad_measurement_media`
+- Portable downstream ADR templates for policy decisions tied to authority sources.
+- Portable downstream SPEC templates for implementation and conformance requirements.
+- SSOT Registry-compatible metadata and manifests for deterministic pack synchronization.
 
 ## Pack Metadata
 
@@ -19,14 +40,14 @@ Advertising, Media, And Audience Measurement
 
 ## Authority Sources
 
-- OpenRTB
-- AdCOM
-- VAST
-- Open Measurement SDK / OMID
-- Media Rating Council Standards
-- IAB Click Measurement Guidelines
-- IAB Digital Video Ad Measurement Guidelines
-- IAB Tech Lab Measurement standards
+- [OpenRTB](https://iabtechlab.com/standards/openrtb/)
+- [AdCOM](https://iabtechlab.com/standards/adcom-advertising-common-object-model/)
+- [VAST](https://iabtechlab.com/standards/vast/)
+- [Open Measurement SDK / OMID](https://iabtechlab.com/open-measurement-sdk)
+- [Media Rating Council Standards](https://mediaratingcouncil.org/standards)
+- [IAB Click Measurement Guidelines](https://www.iab.com/guidelines/click-measurement-guidelines/)
+- [IAB Digital Video Ad Measurement Guidelines](https://www.iab.com/guidelines/digital-video-ad-measurement-guidelines/)
+- [IAB Tech Lab Measurement standards](https://iabtechlab.com/standards/measurement/)
 
 ## Included ADRs
 
@@ -80,6 +101,7 @@ spec_manifest = load_document_manifest("spec")
 
 ## Resources
 
-- GitHub repository: https://github.com/groupsum/ad-measurement-media-governance-pack
-- PyPI package: https://pypi.org/project/ad-measurement-media-governance-pack/
-- SSOT Registry: https://pypi.org/project/ssot-registry/
+- GitHub package repository: [groupsum/ad-measurement-media-governance-pack](https://github.com/groupsum/ad-measurement-media-governance-pack)
+- PyPI package: [ad-measurement-media-governance-pack](https://pypi.org/project/ad-measurement-media-governance-pack/)
+- SSOT Registry: [ssot-registry](https://pypi.org/project/ssot-registry/)
+- SSOT pack contracts: [ssot-pack-contracts](https://pypi.org/project/ssot-pack-contracts/)
