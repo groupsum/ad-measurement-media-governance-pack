@@ -28,7 +28,6 @@ Use this package when a downstream repository needs to answer: which standards, 
 ## Pack Metadata
 
 - Pack ID: `pack:ad-measurement-media`
-- Priority: `P3.1`
 - PyPI package: `ad-measurement-media-governance-pack`
 - Import package: `ssot_pack_ad_measurement_media`
 - GitHub repository: `groupsum/ad-measurement-media-governance-pack`
