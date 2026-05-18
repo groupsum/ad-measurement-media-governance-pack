@@ -50,28 +50,28 @@ Advertising, Media, And Audience Measurement
 
 ## Included ADRs
 
-- `adr:openrtb-adcom-inventory-measurement-boundary` - OpenRTB AdCOM Inventory Measurement Boundary
-- `adr:vast-video-ad-measurement-events` - VAST Video Ad Measurement Events
-- `adr:omid-open-measurement-viewability-verification` - OMID Open Measurement Viewability Verification
-- `adr:iab-click-measurement-validity-policy` - IAB Click Measurement Validity Policy
-- `adr:iab-mrc-video-impression-measurement-policy` - IAB MRC Video Impression Measurement Policy
-- `adr:invalid-traffic-filtration-and-audit-policy` - Invalid Traffic Filtration And Audit Policy
-- `adr:ad-measurement-reporting-granularity-policy` - Ad Measurement Reporting Granularity Policy
+- [`adr:openrtb-adcom-inventory-measurement-boundary`](https://github.com/groupsum/ad-measurement-media-governance-pack/blob/master/src/ssot_pack_ad_measurement_media/templates/adr/ADR-1001-openrtb-adcom-inventory-measurement-boundary.yaml) - OpenRTB AdCOM Inventory Measurement Boundary
+- [`adr:vast-video-ad-measurement-events`](https://github.com/groupsum/ad-measurement-media-governance-pack/blob/master/src/ssot_pack_ad_measurement_media/templates/adr/ADR-1002-vast-video-ad-measurement-events.yaml) - VAST Video Ad Measurement Events
+- [`adr:omid-open-measurement-viewability-verification`](https://github.com/groupsum/ad-measurement-media-governance-pack/blob/master/src/ssot_pack_ad_measurement_media/templates/adr/ADR-1003-omid-open-measurement-viewability-verification.yaml) - OMID Open Measurement Viewability Verification
+- [`adr:iab-click-measurement-validity-policy`](https://github.com/groupsum/ad-measurement-media-governance-pack/blob/master/src/ssot_pack_ad_measurement_media/templates/adr/ADR-1004-iab-click-measurement-validity-policy.yaml) - IAB Click Measurement Validity Policy
+- [`adr:iab-mrc-video-impression-measurement-policy`](https://github.com/groupsum/ad-measurement-media-governance-pack/blob/master/src/ssot_pack_ad_measurement_media/templates/adr/ADR-1005-iab-mrc-video-impression-measurement-policy.yaml) - IAB MRC Video Impression Measurement Policy
+- [`adr:invalid-traffic-filtration-and-audit-policy`](https://github.com/groupsum/ad-measurement-media-governance-pack/blob/master/src/ssot_pack_ad_measurement_media/templates/adr/ADR-1006-invalid-traffic-filtration-and-audit-policy.yaml) - Invalid Traffic Filtration And Audit Policy
+- [`adr:ad-measurement-reporting-granularity-policy`](https://github.com/groupsum/ad-measurement-media-governance-pack/blob/master/src/ssot_pack_ad_measurement_media/templates/adr/ADR-1007-ad-measurement-reporting-granularity-policy.yaml) - Ad Measurement Reporting Granularity Policy
 
 ## Included SPECs
 
-- `spc:openrtb-bid-request-measurement-field-requirements` - OpenRTB Bid Request Measurement Field Requirements
-- `spc:adcom-object-model-measurement-requirements` - AdCOM Object Model Measurement Requirements
-- `spc:vast-tracking-event-requirements` - VAST Tracking Event Requirements
-- `spc:vast-video-ad-reporting-requirements` - VAST Video Ad Reporting Requirements
-- `spc:omid-session-and-verification-requirements` - OMID Session And Verification Requirements
-- `spc:omid-viewability-signal-requirements` - OMID Viewability Signal Requirements
-- `spc:iab-click-measurement-requirements` - IAB Click Measurement Requirements
-- `spc:iab-digital-video-impression-requirements` - IAB Digital Video Impression Requirements
-- `spc:mrc-viewability-measurement-requirements` - MRC Viewability Measurement Requirements
-- `spc:mrc-invalid-traffic-filtration-requirements` - MRC Invalid Traffic Filtration Requirements
-- `spc:ad-measurement-audit-evidence-requirements` - Ad Measurement Audit Evidence Requirements
-- `spc:ad-measurement-export-reconciliation-requirements` - Ad Measurement Export Reconciliation Requirements
+- [`spc:openrtb-bid-request-measurement-field-requirements`](https://github.com/groupsum/ad-measurement-media-governance-pack/blob/master/src/ssot_pack_ad_measurement_media/templates/specs/SPEC-2001-openrtb-bid-request-measurement-field-requirements.yaml) - OpenRTB Bid Request Measurement Field Requirements
+- [`spc:adcom-object-model-measurement-requirements`](https://github.com/groupsum/ad-measurement-media-governance-pack/blob/master/src/ssot_pack_ad_measurement_media/templates/specs/SPEC-2002-adcom-object-model-measurement-requirements.yaml) - AdCOM Object Model Measurement Requirements
+- [`spc:vast-tracking-event-requirements`](https://github.com/groupsum/ad-measurement-media-governance-pack/blob/master/src/ssot_pack_ad_measurement_media/templates/specs/SPEC-2003-vast-tracking-event-requirements.yaml) - VAST Tracking Event Requirements
+- [`spc:vast-video-ad-reporting-requirements`](https://github.com/groupsum/ad-measurement-media-governance-pack/blob/master/src/ssot_pack_ad_measurement_media/templates/specs/SPEC-2004-vast-video-ad-reporting-requirements.yaml) - VAST Video Ad Reporting Requirements
+- [`spc:omid-session-and-verification-requirements`](https://github.com/groupsum/ad-measurement-media-governance-pack/blob/master/src/ssot_pack_ad_measurement_media/templates/specs/SPEC-2005-omid-session-and-verification-requirements.yaml) - OMID Session And Verification Requirements
+- [`spc:omid-viewability-signal-requirements`](https://github.com/groupsum/ad-measurement-media-governance-pack/blob/master/src/ssot_pack_ad_measurement_media/templates/specs/SPEC-2006-omid-viewability-signal-requirements.yaml) - OMID Viewability Signal Requirements
+- [`spc:iab-click-measurement-requirements`](https://github.com/groupsum/ad-measurement-media-governance-pack/blob/master/src/ssot_pack_ad_measurement_media/templates/specs/SPEC-2007-iab-click-measurement-requirements.yaml) - IAB Click Measurement Requirements
+- [`spc:iab-digital-video-impression-requirements`](https://github.com/groupsum/ad-measurement-media-governance-pack/blob/master/src/ssot_pack_ad_measurement_media/templates/specs/SPEC-2008-iab-digital-video-impression-requirements.yaml) - IAB Digital Video Impression Requirements
+- [`spc:mrc-viewability-measurement-requirements`](https://github.com/groupsum/ad-measurement-media-governance-pack/blob/master/src/ssot_pack_ad_measurement_media/templates/specs/SPEC-2009-mrc-viewability-measurement-requirements.yaml) - MRC Viewability Measurement Requirements
+- [`spc:mrc-invalid-traffic-filtration-requirements`](https://github.com/groupsum/ad-measurement-media-governance-pack/blob/master/src/ssot_pack_ad_measurement_media/templates/specs/SPEC-2010-mrc-invalid-traffic-filtration-requirements.yaml) - MRC Invalid Traffic Filtration Requirements
+- [`spc:ad-measurement-audit-evidence-requirements`](https://github.com/groupsum/ad-measurement-media-governance-pack/blob/master/src/ssot_pack_ad_measurement_media/templates/specs/SPEC-2011-ad-measurement-audit-evidence-requirements.yaml) - Ad Measurement Audit Evidence Requirements
+- [`spc:ad-measurement-export-reconciliation-requirements`](https://github.com/groupsum/ad-measurement-media-governance-pack/blob/master/src/ssot_pack_ad_measurement_media/templates/specs/SPEC-2012-ad-measurement-export-reconciliation-requirements.yaml) - Ad Measurement Export Reconciliation Requirements
 
 ## Install With uv
 
