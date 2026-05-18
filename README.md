@@ -33,7 +33,7 @@ Use this package when a downstream repository needs to answer: which standards, 
 - Pack ID: `pack:ad-measurement-media`
 - PyPI package: `ad-measurement-media-governance-pack`
 - Import package: `ssot_pack_ad_measurement_media`
-- GitHub repository: `groupsum/ad-measurement-media-governance-pack`
+- GitHub repository: [groupsum/ad-measurement-media-governance-pack](https://github.com/groupsum/ad-measurement-media-governance-pack)
 - Reservation owner: `extension-pack:ad-measurement-media-governance-pack`
 
 ## Domain Focus
