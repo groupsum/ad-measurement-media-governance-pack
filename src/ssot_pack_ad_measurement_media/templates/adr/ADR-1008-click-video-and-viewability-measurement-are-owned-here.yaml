@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:click-video-and-viewability-measurement-are-owned-here",
+  "number": 1008,
+  "slug": "click-video-and-viewability-measurement-are-owned-here",
+  "title": "Click Video And Viewability Measurement Are Owned Here",
+  "status": "accepted",
+  "summary": "Click, impression, video, viewability, and invalid-traffic measurement have one canonical owner.",
+  "body": "Ad measurement governance owns measurement event validity, viewability, invalid-traffic filtering, reporting, reconciliation, and evidence. Attribution consumes validated results.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.iab.com/guidelines/",
+    "https://www.mediaratingcouncil.org/"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "click",
+    "video",
+    "and",
+    "viewability",
+    "measurement",
+    "are",
+    "owned",
+    "here"
+  ]
+}

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0.dev1
+
+- Declared canonical ad measurement ownership relative to attribution.
+
 ## 0.1.1.dev2
 
 - Pending release notes.
