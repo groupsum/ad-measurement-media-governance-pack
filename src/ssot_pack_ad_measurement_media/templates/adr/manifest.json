@@ -132,7 +132,7 @@
     "title": "Click Video And Viewability Measurement Are Owned Here",
     "filename": "ADR-1008-click-video-and-viewability-measurement-are-owned-here.yaml",
     "target_path": ".ssot/adr/ADR-1008-click-video-and-viewability-measurement-are-owned-here.yaml",
-    "sha256": "1d39b2bac501ba9dc7b747dfcce7b3bfc51ce54986553db32aff02a6033a2c83",
+    "sha256": "64a870e7bd4bdc768e8f49df9490be731cf101c874df1fe68e9a53b68343dd20",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:ad-measurement-media-governance-pack",
     "immutable": true,
